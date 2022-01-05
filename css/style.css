@@ -1,0 +1,97 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+
+*
+{
+    font-family: 'Lilita One', cursive;
+}
+
+
+body
+{
+    background-color: #fff;
+    font-family: 'Lilita One', cursive;
+}
+
+.imgGP
+{
+    size: 25%;
+}
+
+.mob
+{
+    border-left-width: -101px!important;
+    border-left-style: solid!important;
+    margin-left: -37px!important;
+    margin-left: -200px !important;
+    width: 20%;
+    
+}
+
+.chars { 
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter:         drop-shadow(10px 10px 10px #222); 
+}
+@media only screen and (max-width: 768px)
+{
+    .mob
+    {
+        width: 40%;
+        
+    }
+
+    .text-over-img
+    {
+        visibility: hidden;
+    }
+   
+}
+
+.btn 
+{
+    display:block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 35pt;
+
+
+    margin-left: 45%;
+    
+}
+
+.btn a i
+{
+    margin-left: -50%;
+}
+
+
+
+@media (min-width: 992px)
+{
+    .nv
+    {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .pBig
+    {
+        font-size:  20pt;
+    }
+
+    .mob
+    {
+        width: 80%;
+    }
+
+    .text-over-img
+    {
+    font-size: 20pt;
+    }   
+
+}
+
+
